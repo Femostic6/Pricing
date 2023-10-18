@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <meta name="Author" content="Ayodele Oluwafemi">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            width: 100%; 
+            height: 100%; 
+            
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            
+            align-items: center;
+            gap: 30px;
+            height: 100vh;
+            width: 100%;
+            
+            
+        }
+        .main div{
+            background-color: rgb(246, 224, 224);
+            color: black;
+            text-align: center;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            
+
+        }
+        .first{
+            
+            
+            
+        }
+        .second{
+            
+
+        }
+        .third{
+            
+
+        }
+        .Signup{
+            background-color: rgb(216, 166, 73);
+            border: 6px solid rgb(216, 166, 73);
+            font-size: small;
+            border-radius: 5px;
+            color: aliceblue;
+            text-decoration: none;
+
+            
+        }
+        .plan{
+            font-weight: bold;
+        }
+        .Amount{
+            font-weight: bold;
+            font-size: x-large;
+        }
+        @media( max-width: 581px ){
+            .main{
+                display: inline-flex;
+                flex-direction: column;
+                margin: 20px;
+                gap: 30px;
+                flex-basis: 100px;  
+                height: 100%;
+                width: 100%;
+                
+                
+
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="first">
+            <p class="plan" > Basic</p>
+            <p class="Amount">$11.99 / Month </p>
+            <p> ✅ 10GB Storage </p>
+            <p>✅ 1 User</p>
+            <p> 🚫 Support</p>
+           <p> <a href="" class="Signup"> Sign Up</a></p>  
+        </div>
+        <div class="second">
+            <p class="plan" > Standard</p>
+            <p class="Amount">$19.99 / Month </p>
+            <p> ✅ 50GB Storage </p>
+            <p>✅ 5 User</p>
+            <p> ✅ Phone & Email Support</p>
+           <p> <a href="" class="Signup"> Sign Up</a></p> 
+
+        </div>
+        <div class="third">
+            <p class="plan" > Premium</p>
+            <p class="Amount">$49.99 / Month </p>
+            <p> ✅ 100GB Storage </p>
+            <p>✅ 10 User</p>
+            <p> ✅ 24/7 Support</p>
+           <p> <a href="" class="Signup"> Sign Up</a></p> 
+        </div>
+
+    </div>
+</body>
+</html>
